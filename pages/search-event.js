@@ -60,7 +60,7 @@ export default function SearchEvent() {
             <GridDiv margin="60px 20px" padding="20px" animation="fadeIn"> 
                 <FlexDiv direction="column" justify="center" align="baseline">
                     <h1 className='animate__animated animate__rubberBand animate__delay-1.5s'>Search Event</h1>
-                    <p>Discovery events that occured in Marvel's Universe! Also discover the characters that participated in the event, comics made and more! </p>
+                    <p>Discovery events that occured in Marvel&apos;s Universe! Also discover the characters that participated in the event, comics made and more! </p>
                     </FlexDiv>
                 <Div>
                 <Img src="/miles-morales.png" alt="Marvel Image" width="100%" className="marvel"/>

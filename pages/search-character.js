@@ -62,7 +62,7 @@ export default function SearchCharacter() {
             <GridDiv margin="60px 20px" padding="20px" animation="fadeIn"> 
                 <FlexDiv direction="column" justify="center" align="baseline">
                     <h1 className='animate__animated animate__rubberBand animate__delay-1.5s'>Search Character</h1>
-                    <p>Datas about a lot of character in a simple click! Insert character's name and see the magic!!</p>
+                    <p>Datas about a lot of character in a simple click! Insert character&apos;s name and see the magic!!</p>
 
                     <p><b>Fun fact:</b> Stark made the tecnologie behind this website in his office.</p>
                     </FlexDiv>
