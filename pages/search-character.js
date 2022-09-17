@@ -15,9 +15,7 @@ import ErrorCard from '../components/cards/error-card'
 import Footer from '../components/footer/footer'
 
 
-export default function searchCharacter() {
-
-  
+export default function SearchCharacter() {
 
   const [apiData, setApiData] = useState([])
 

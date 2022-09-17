@@ -15,7 +15,7 @@ import Img from '../patterns/img'
 
 import Footer from '../components/footer/footer'
 
-export default function searchEvent() {
+export default function SearchEvent() {
 
   const [apiData, setApiData] = useState([])
 
