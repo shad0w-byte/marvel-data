@@ -52,7 +52,7 @@ export default function characterCard({data}) {
     <Card>
         {
             data.data.results.map(character =>
-            <Div padding="10px 0">
+            <Div padding="10px 0" key={character.name}>
                 <h3>{character.name}</h3>
                 <Img src={character.thumbnail.path+"."+character.thumbnail.extension} alt="character image"/>
             <Div margin="10px">
