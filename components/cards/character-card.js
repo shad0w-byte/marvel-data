@@ -47,7 +47,7 @@ const Card = styled.div`
 `
 
 export default function characterCard({data}) {
-  let message = "Oh no, it looks like we are under attack, some of our data on our heroes is disappearing! I bet this is Hydra's work..."
+  let message = "Oh no, it looks like we are under attack, some of our data on our heroes is disappearing! I bet this is Hydra work..."
   return (
     <Card>
         {

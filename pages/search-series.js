@@ -44,7 +44,7 @@ const Card = styled.div`
 
 
 export default function searchSeries() {
-    let message = "Oh no, it looks like we are under attack, some of our data on our heroes is disappearing! I bet this is Hydra's work..."
+    let message = "Oh no, it looks like we are under attack, some of our data on our heroes is disappearing! I bet this is Hydra work..."
 
     const [apiData, setApiData] = useState([])
 
