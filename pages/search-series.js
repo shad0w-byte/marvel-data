@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Head from '../components/head'
 import Navbar from '../components/navbar/navbar'
 
-
+import ErrorCard from '../components/cards/error-card'
 import Div from '../patterns/div'
 import GridDiv from '../patterns/grid-div'
 import FlexDiv from '../patterns/flex-div'

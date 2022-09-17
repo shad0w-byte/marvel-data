@@ -51,7 +51,7 @@ export default function defaultCard({data}) {
     <Card>
         {
             data.data.results.map(datas =>
-            <Div>
+            <Div key={datas.title}>
                 <h3>{datas.title}</h3>
                 <Img src={datas.thumbnail.path+"."+datas.thumbnail.extension} alt="image"/>
             <Div>
