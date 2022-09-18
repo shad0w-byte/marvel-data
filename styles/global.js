@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         font-weight:800;
         color:#141412;
         text-transform:uppercase;
+        text-align:left;
     }
     a{
         text-decoration:none;

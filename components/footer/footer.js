@@ -18,7 +18,7 @@ export default function footer() {
                    <ul>
                       <li>
                         <i className="bi bi-link"></i>
-                        GitHub: <a href="/" target="_blank" rel="noreferrer">Click Here!</a></li>
+                        GitHub: <a href="https://github.com/victor-kiss/marvel-data" target="_blank" rel="noreferrer">Click Here!</a></li>
                       <li>
                         <i className="bi bi-link"></i>
                         Marvel API: <a href="https://developer.marvel.com/" target="_blank" rel="noreferrer">Click Here!</a>
