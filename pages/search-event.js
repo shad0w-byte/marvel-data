@@ -66,7 +66,7 @@ export default function SearchEvent() {
                 <Img src="/miles-morales.png" alt="Marvel Image" width="100%" className="marvel"/>
                 </Div>
               </GridDiv>
-                <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#141414">
+                <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#141414" margin="20px 0">
                   <input placeholder="event name ex: age of x" type="text" className='input-search'/>
                   {apiData.map((data)=> data.data.count == 0 ? <ErrorCard key={data.code}/> : <Card data={data} key={data.code}/>)}
                 </FlexDiv>

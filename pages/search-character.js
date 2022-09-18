@@ -70,7 +70,7 @@ export default function SearchCharacter() {
                 <Img src="/iron-man.png" alt="Marvel Image" width="100%" className="marvel"/>
                 </Div>
               </GridDiv>
-                <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#e23636">
+                <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#e23636" margin="20px 0">
                   <input placeholder="character name ex: iron man" type="text" className='input-search'/>
                     {apiData.map((data)=> data.data.count == 0 ? <ErrorCard key={data.code}/> : <CharacterCard data={data} key={data.code}/>)}
                 </FlexDiv>
