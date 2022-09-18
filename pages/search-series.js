@@ -97,7 +97,9 @@ export default function SearchSeries() {
               </GridDiv>
          
                 <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#141414" margin="20px 0">
-                  <input placeholder="event name ex: Age of X: Universe" type="text" className='input-search'/>
+                 <div>
+                    <input placeholder="event name ex: Age of X: Universe" type="text" className='input-search'/>
+                 </div>
                 {apiData.map((data)=> data.data.count == 0 ? <ErrorCard key={data.code}/> : 
                     <Card key={data.data.count}>
                       {
