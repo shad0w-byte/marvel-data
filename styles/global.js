@@ -55,8 +55,8 @@ const GlobalStyle = createGlobalStyle`
         font-weight:600;
 
         @media(max-width:576px){
-            width:100%;
-            margin:20px;
+            width:calc(100%);
+            margin:10px;
         }
     }   
     .loading{
