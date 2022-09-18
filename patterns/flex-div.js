@@ -20,7 +20,7 @@ const FlexDiv = styled.div`
         flex-direction:column;
         align-items:center;
         justify-content: center;
-        padding:10px;
+        padding:15px;
     }
 
 `
