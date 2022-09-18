@@ -54,7 +54,7 @@ const GlobalStyle = createGlobalStyle`
         font-weight:600;
 
         @media(max-width:576px){
-            width:auto;
+            width:100%;
             margin:10px;
         }
     }   
