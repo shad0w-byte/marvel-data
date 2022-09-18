@@ -27,7 +27,6 @@ export default function navbar() {
               <NavDropdown.Item href="/search-event">
                 Events
               </NavDropdown.Item>
-              <NavDropdown.Item href="/search-comics">Comics</NavDropdown.Item>
               <NavDropdown.Item href="/search-series">Series</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="https://ssik824.vercel.app/" rel="noreferrer">Creator</Nav.Link>
