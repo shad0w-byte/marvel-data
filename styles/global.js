@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         padding:0;
         box-sizing:border-box;
         font-family: 'Poppins', sans-serif;
+        overflow-y:hidden ;
     }
     
     h1,h2,h3,h4,h5,h6{
@@ -55,7 +56,7 @@ const GlobalStyle = createGlobalStyle`
 
         @media(max-width:576px){
             width:100%;
-            margin:10px;
+            margin:20px;
         }
     }   
     .loading{
