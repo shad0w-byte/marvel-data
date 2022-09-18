@@ -71,9 +71,9 @@ export default function SearchCharacter() {
                 </Div>
               </GridDiv>
                 <FlexDiv direction="column" justify="center" align="center" padding="20px 0" bgColor="#e23636" margin="20px 0">
-                  <div>
+                  <Div margin="10px">
                     <input placeholder="character name ex: iron man" type="text" className='input-search'/>
-                  </div>
+                  </Div>
                     {apiData.map((data)=> data.data.count == 0 ? <ErrorCard key={data.code}/> : <CharacterCard data={data} key={data.code}/>)}
                 </FlexDiv>
         <Footer/>
