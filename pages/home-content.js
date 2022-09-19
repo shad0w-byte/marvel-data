@@ -33,9 +33,7 @@ export default function homeContent() {
 
                     <Button  url="/search-character" placeholder="Search Character"/>
                     <Button  url="/search-events" placeholder="Search Events"/>
-                    <Button url="/search-comics" placeholder="Search Comics"/>
                     <Button url="/search-series" placeholder="Search Series"/>
-                    <Button url="/search-characters" placeholder="Search Characters"/>
                     </div>
                 </Div>
                 <FlexDiv justify="center" align="center">
