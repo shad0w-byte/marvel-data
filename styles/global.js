@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         padding:0;
         box-sizing:border-box;
         font-family: 'Poppins', sans-serif;
-        overflow-X:hidden ;
+     
     }
     
     h1,h2,h3,h4,h5,h6{
