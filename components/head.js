@@ -10,7 +10,7 @@ export default function head({title}) {
         <>
             <NextHead>
                 <>
-                    <meta name="keywords" content="ssik824, web-design, marvel,marvel-comics, marvel comics, marvel events, marvel api, marvel characters, marvel HQs, mcu, MCU, avengers, marvel characters, ui/ux, ui,ux, victor kiss, website, website project"/>
+                    <meta name="keywords" content="ssik824, ssik824 github, victor kiss ssik824, web-design, marvel,marvel-comics, marvel comics, marvel events, marvel api, marvel characters, marvel HQs, mcu, MCU, avengers, marvel characters, ui/ux, ui,ux, victor kiss, website, website project"/>
 
                     <meta name="author" content="ssik824"/>
 

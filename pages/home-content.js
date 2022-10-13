@@ -18,7 +18,7 @@ export default function homeContent() {
   return (
     <>
     <header>
-        <Head title="Marvel Data"/>
+        <Head title="Marvel Data by ssik824"/>
     </header>
         <Navbar/>
         <GridDiv margin="40px 20px" padding="20px" animation="fadeInUp"> 
